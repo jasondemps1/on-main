@@ -1,0 +1,3 @@
+(on-main :fetcher github
+         :repo "<you>/on-main"
+         :files (:defaults "on-main.lisp"))
