@@ -2,6 +2,9 @@
 
 Live-code Common Lisp GUI and game programs on macOS from Sly or SLIME.
 
+What it solves:
+- Developing games on MacOS with SDL2/3, GLFW, Raylib, etc., has always been a nightmare to run the in-development application and live develop/hot-reload (Emacs / app. freezes, Emacs becomes no longer responsive, etc.) and wanted a 'forever' fix. Well, this is it... this solution works for me. My quest for MacOS live development with games is over and solved with `on-main`. Hope others can benefit from this as well.
+
 macOS only lets a process create windows on its **main thread**. Cocoa enforces
 this, so GLFW, SDL, raylib and friends all inherit the rule. Sly and SLIME,
 though, give SBCL's main thread to a REPL and evaluate your code in other
