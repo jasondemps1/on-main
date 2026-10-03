@@ -43,7 +43,7 @@ It works on Linux and Windows too, where it's harmless rather than required.
 From source with Emacs 29+:
 
 ```elisp
-(package-vc-install "https://github.com/<you>/on-main")
+(package-vc-install "https://github.com/jasondemps1/on-main")
 ```
 
 Or clone the repo and add it to your `load-path`. Then load the adapter for
