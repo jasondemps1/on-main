@@ -4,7 +4,7 @@
 
 ;; Author: Jason Dempsey
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "31.1"))
+;; Package-Requires: ((emacs "28.1"))
 ;; Keywords: lisp, languages, tools
 ;; URL: https://github.com/jasondemps1/on-main
 ;; SPDX-License-Identifier: MIT
